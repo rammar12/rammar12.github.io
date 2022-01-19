@@ -1,0 +1,19 @@
+p{
+	padding: 70px;
+	margin: 20px;
+	color: white;
+	font-size: 30px;
+}
+.grad1{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 38%, rgba(245,130,246,1) 100%);
+}
+
+body {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+}
+.grad2{
+    background: linear-gradient(0deg, rgba(233,116,203,1) 0%, rgba(250,206,245,1) 19%, rgba(89,175,87,1) 40%, rgba(67,134,115,1) 69%, rgba(0,0,0,1) 100%);
+}
+.grad3{
+	background: radial-gradient(circle, rgba(122,233,116,1) 4%, rgba(227,131,225,1) 46%, rgba(38,33,33,1) 100%);
+}
