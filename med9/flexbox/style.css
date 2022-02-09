@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=IBM+Plex+Sans+Thai+Looped:wght@100&display=swap');
+
+
+body {background: linear-gradient(90deg, rgba(150,108,149,1) 0%, rgba(94,173,169,1) 100%);}
+
+.first {
+	background-color: rgb(157, 108, 186);
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+
+}
+p{
+	background-color:rgb(189, 123, 156);
+	padding: 10px;
+	margin: 10px;
+	font-family: "Comforter&family";
+}
+.second{
+	background-color:rgb(123, 189, 142);
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.third{
+	height: 400px;
+	background-color: rgb(135, 92, 134);
+	display: flex;
+	justify-content:space-evenly;
+	align-items:space-around;
+}
+img{
+	height: 300px;
+	
+}
