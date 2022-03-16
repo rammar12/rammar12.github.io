@@ -1,0 +1,90 @@
+/*
+*
+*   Title:Basic structure of a page
+*   Author:Ramona Marku
+*   Date :2022-03-16
+*
+*/
+
+
+/******** General Styling **************/
+
+
+
+body{
+	margin: 0;
+}
+/*Navigation*/
+
+nav{
+	background-color: green;
+	display: flex;/*We need flexbox*/
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+nav img {
+	height: 80px;
+	border-radius: 50%;/*To make corner*/
+
+}
+nav ul {
+	list-style: none;/*To remove the bullet points*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+nav ul li a{
+	margin: 20px;
+	padding: 30px;
+	background-color:darkgreen;
+	border-radius: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav ul li a: hover{
+	background-color:pink;
+	color: white;
+}
+/*Header*/
+header {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("header-background.jpg");
+	background-position: center;
+	background-size: cover;
+}
+header h1{
+	font-size: 20px;
+	background-color: rgba(255,255,255,0.7);
+	padding: 20px;
+}
+/*Main*/
+main {
+	padding: 50px;
+	background-color: green;
+	color: white;
+
+}
+main h2 {
+	font-size: 20px;
+	color: darkgreen;
+}
+
+
+/*Footer*/
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 30px;
+	background-color: lightgreen;
+}
+footer p {
+	font-size: 20px;
+	background-color: white;
+	color: darkgreen
+	padding:15px;
+}
