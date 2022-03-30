@@ -9,15 +9,20 @@
 
 /******** General Styling **************/
 
+:root {
+	scroll-behavior: smooth;
+}
+
 
 
 body{
 	margin: 0;
+
 }
 /*Navigation*/
 
 nav{
-	background-color: green;
+	background: rgb(64, 95, 148);
 	display: flex;/*We need flexbox*/
 	justify-content: space-between;
 	align-items: center;
@@ -37,13 +42,13 @@ nav ul {
 nav ul li a{
 	margin: 20px;
 	padding: 30px;
-	background-color:darkgreen;
+	background: rgb(156, 255, 255);
 	border-radius: 25px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
-nav ul li a: hover{
-	background-color:pink;
+nav ul li a:hover{
+	background-color:rgb(6, 125, 125);
 	color: white;
 }
 /*Header*/
@@ -52,25 +57,43 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("header-background.jpg");
 	background-position: center;
 	background-size: cover;
 }
 header h1{
 	font-size: 20px;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgb(33, 121, 143);
 	padding: 20px;
 }
 /*Main*/
 main {
 	padding: 50px;
-	background-color: green;
+	background-color:rgb(38, 82, 158);
 	color: white;
 
 }
 main h2 {
 	font-size: 20px;
-	color: darkgreen;
+	color: darkblue;
+}
+/*Section*/
+section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+section .left {
+	width: 60%;
+	background-color:lightblue;
+	padding: 30px;
+
+}
+section .right {
+	width: 40%;
+	background-color: darkblue;
+	padding: 30px;
+
 }
 
 
@@ -80,11 +103,48 @@ footer{
 	justify-content: space-evenly;
 	align-items: center;
 	padding: 30px;
-	background-color: lightgreen;
+	background-color: lightblue;
 }
 footer p {
 	font-size: 20px;
 	background-color: white;
-	color: darkgreen
+	color: blue;
 	padding:15px;
+}
+/*******************Home Page Styling****************************/
+
+#home header {
+	background-image: url("header-background.jpg");
+}
+#home #pictures {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+#home #pictures img {
+	width: 200px;
+	margin: 10px;
+	border: 2px solid lightblue;
+}
+
+
+/******************Contact Page Styling***********************/
+
+
+
+#contact header {
+	background-image: url("contact-header-background.jpg");
+}
+#contact main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 60px;
+
+}
+#contact main ul{
+	color: darkblue;
 }
