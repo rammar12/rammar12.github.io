@@ -1,0 +1,84 @@
+/*
+*
+*   Title:Basic structure of a page
+*   Author:Ramona Marku
+*   Date :2022-03-16
+*
+*/
+
+
+/******** General Styling **************/
+
+:root {
+	scroll-behavior: smooth;
+}
+
+
+
+body{
+	margin: 0;
+	
+
+}
+/*Navigation*/
+
+nav{
+	background: lightpink;
+	display: flex;/*We need flexbox*/
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	width: 100%;
+	box-sizing:border-box;
+}
+nav img {
+	height: 80px;
+	border-radius: 50%;/*To make corner*/
+
+}
+nav ul {
+	list-style: none;/*To remove the bullet points*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+nav ul li a{
+	margin: 20px;
+	padding: 30px;
+	background: white;
+	border-radius: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	background-color:lightpink;
+	color: white;
+}
+/*Header*/
+header {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+	background-image: url("sky.jpg");
+}
+header h1{
+	font-size: 20px;
+	background-color: white;
+	padding: 20px;
+}
+section {
+	padding: 300px;
+}
+#link1 {
+	background-color: lightblue;
+}
+#link2 {
+	background-color: lightpink;
+}
+#link3 {
+	background-color: lightgreen;
+}
