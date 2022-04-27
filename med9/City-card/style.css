@@ -11,6 +11,8 @@ article {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+
 
 }
 article .left {
@@ -45,9 +47,6 @@ article .right .header {
 	left:440px;
 	top: 170px;
 	padding: 5px;
-}
-article .right{
-	position: relative;
 }
 
 
