@@ -36,6 +36,7 @@ article .right h1 {
 	top: 189px;
 	padding: 5px;
 }
+
 article .right .header {
 
 	background-color:black;
@@ -44,4 +45,9 @@ article .right .header {
 	left:440px;
 	top: 170px;
 	padding: 5px;
+}
+article .right{
+	position: relative;
+}
+
 
