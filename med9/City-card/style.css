@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: "RadioCanada"
+
+}
+article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+article .left {
+	height: 180px;
+	width: 300px;
+	background-image: url(Londra.jpg);
+	background-size:cover; 
+	background-position: center;
+	padding: 20px;
+
+}
+article .right {
+	padding: 110px;
+   background: linear-gradient(335deg, rgba(170,210,255,1) 9%, rgba(218,129,202,1) 88%);
+}
+
+article .right h1 {
+	text-transform: uppercase;
+	background-color: white;
+	color: black;
+	position: absolute;
+	left: 560px;
+	top: 189px;
+	padding: 5px;
+}
+article .right .header {
+
+	background-color:black;
+	color: white;
+	position: absolute;
+	left:440px;
+	top: 170px;
+	padding: 5px;
+
