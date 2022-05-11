@@ -1,0 +1,379 @@
+/*
+*
+*   Title:Basic structure of a page
+*   Author:Ramona Marku
+*   Date :2022-05-11
+*
+*/
+
+
+/******** General Styling **************/
+
+:root {
+	scroll-behavior: smooth;
+}
+
+
+
+body{
+	margin: 0;
+	background: linear-gradient(100deg, rgba(187,237,238,1) 0%, rgba(143,195,255,1) 25%, rgba(236,252,169,1) 49%, rgba(200,227,202,1) 77%, rgba(234,191,195,1) 100%);
+}
+/*Navigation*/
+
+nav{
+   background: linear-gradient(100deg, rgba(143,195,255,1) 2%, rgba(236,252,169,1) 20%, rgba(187,237,238,1) 51%, rgba(234,191,195,1) 63%, rgba(200,227,202,1) 88%);
+	display: flex;/*We need flexbox*/
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+nav img {
+	height: 80px;
+	border-radius: 50%;/*To make corner*/
+
+}
+nav ul {
+	list-style: none;/*To remove the bullet points*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+  background: linear-gradient(100deg, rgba(187,237,238,1) 0%, rgba(200,227,202,1) 26%, rgba(255,181,187,1) 44%, rgba(143,195,255,1) 60%, rgba(234,191,195,1) 100%); ;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav ul li a :hover{
+	background-color:black;
+	color: black;
+}
+/*Header*/
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size: cover ;
+
+}
+header h1{
+	font-size: 20px;
+	background: white;
+	padding: 25px;
+}
+/*Section*/
+section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+section .left{
+	width: 100%;
+	background:linear-gradient(100deg, rgba(101,192,194,1) 0%, rgba(255,254,172,1) 34%, rgba(255,255,255,1) 69%, rgba(234,191,195,1) 100%);
+	padding: 30px;
+}
+/*footer*/
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 30px;
+	background: linear-gradient(100deg, rgba(173,255,222,1) 0%, rgba(232,174,226,1) 31%, rgba(177,255,246,1) 100%);
+}
+footer p{
+	font-size: 20px;
+	background-color: white;
+	color: black;
+	padding: :15px;
+}
+/***************Home Page Styling *************/
+#Home header{
+	background-image: url(background.jpg);
+}
+#home #pictures{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+#home #pictures img {
+	width: 200px;
+	margin: 10px;
+	border: 2px solid white;
+}
+/***************About Page Styling ********/
+#about header{
+	background-image: url(background.jpg);
+
+}
+#about main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 60px;
+}
+#about ul {
+	color: black;
+}
+/*************Products Page Styling ***********/
+
+article .image {
+	height: 180px;
+	width: 300px;
+	background-image: url(art1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+}
+article .text {
+	height: 200px;
+	width: 300px;
+	background: linear-gradient(308deg, rgba(196,255,197,1) 10%, rgba(190,255,247,1) 45%, rgba(255,255,255,1) 67%, rgba(255,180,241,1) 87%);
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+}
+article .text .header {
+	text-transform: uppercase;
+}
+article .text .footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+article .box {
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px;
+	position: absolute;
+	left: 0px;
+	top: 189px;
+}
+article {
+	position: relative;
+
+
+}
+article .image1 {
+	height: 180px;
+	width: 300px;
+	background-image: url(art2.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+}
+article .text1 {
+	height: 200px;
+	width: 300px;
+	background: linear-gradient(308deg, rgba(196,255,197,1) 10%, rgba(190,255,247,1) 45%, rgba(255,255,255,1) 67%, rgba(255,180,241,1) 87%);
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+}
+article .text1 .header1 {
+	text-transform: uppercase;
+}
+article .text1 .footer1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+article .box1 {
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px;
+	position: absolute;
+	left: 0px;
+	top: 189px;
+}
+article {
+	position: relative;
+
+
+}
+article .image2 {
+	height: 180px;
+	width: 300px;
+	background-image: url(art3.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+}
+article .text2 {
+	height: 200px;
+	width: 300px;
+	background: linear-gradient(308deg, rgba(196,255,197,1) 10%, rgba(190,255,247,1) 45%, rgba(255,255,255,1) 67%, rgba(255,180,241,1) 87%);
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+}
+article .text2 .header2 {
+	text-transform: uppercase;
+}
+article .text2 .footer2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+article .box2 {
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px;
+	position: absolute;
+	left: 0px;
+	top: 189px;
+}
+article {
+	position: relative;
+
+
+}
+article .image3 {
+	height: 180px;
+	width: 300px;
+	background-image: url(art4.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+}
+article .text3 {
+	height: 200px;
+	width: 300px;
+	background: linear-gradient(308deg, rgba(196,255,197,1) 10%, rgba(190,255,247,1) 45%, rgba(255,255,255,1) 67%, rgba(255,180,241,1) 87%);
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+}
+article .text3 .header3 {
+	text-transform: uppercase;
+}
+article .text3 .footer3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+article .box3 {
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px;
+	position: absolute;
+	left: 0px;
+	top: 189px;
+}
+article {
+	position: relative;
+
+
+}
+article .image4 {
+	height: 180px;
+	width: 300px;
+	background-image: url(art5.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+}
+article .text4 {
+	height: 200px;
+	width: 300px;
+	background: linear-gradient(308deg, rgba(196,255,197,1) 10%, rgba(190,255,247,1) 45%, rgba(255,255,255,1) 67%, rgba(255,180,241,1) 87%);
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+}
+article .text4 .header4{
+	text-transform: uppercase;
+}
+article .text4 .footer4 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+article .box4 {
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px;
+	position: absolute;
+	left: 0px;
+	top: 189px;
+}
+article {
+	position: relative;
+
+
+}
+article .image5 {
+	height: 180px;
+	width: 300px;
+	background-image: url(art6.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+}
+article .text5 {
+	height: 200px;
+	width: 300px;
+	background: linear-gradient(308deg, rgba(196,255,197,1) 10%, rgba(190,255,247,1) 45%, rgba(255,255,255,1) 67%, rgba(255,180,241,1) 87%);
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+}
+article .text5 .header5 {
+	text-transform: uppercase;
+}
+article .text5 .footer5 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+article .box5 {
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px;
+	position: absolute;
+	left: 0px;
+	top: 189px;
+}
+article {
+	position: relative;
+
+
+}
+
+
+/***********************/
+#info header{
+	background-image: url(background.jpg);
+
+}
